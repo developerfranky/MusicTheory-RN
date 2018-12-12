@@ -1,0 +1,88 @@
+PODS:
+  - Crashlytics (3.10.5):
+    - Fabric (~> 1.7.9)
+  - Fabric (1.7.9)
+  - Google-Mobile-Ads-SDK (7.31.0)
+  - React (0.56.0):
+    - React/Core (= 0.56.0)
+  - React/Core (0.56.0):
+    - yoga (= 0.56.0.React)
+  - React/fishhook (0.56.0)
+  - React/RCTActionSheet (0.56.0):
+    - React/Core
+  - React/RCTAnimation (0.56.0):
+    - React/Core
+  - React/RCTBlob (0.56.0):
+    - React/Core
+  - React/RCTGeolocation (0.56.0):
+    - React/Core
+  - React/RCTImage (0.56.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.56.0):
+    - React/Core
+  - React/RCTNetwork (0.56.0):
+    - React/Core
+  - React/RCTSettings (0.56.0):
+    - React/Core
+  - React/RCTText (0.56.0):
+    - React/Core
+  - React/RCTVibration (0.56.0):
+    - React/Core
+  - React/RCTWebSocket (0.56.0):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - ReactNativeFabric (0.5.1):
+    - Crashlytics
+    - Fabric
+    - React
+  - RNIap (2.0.0-alpha7):
+    - React
+  - yoga (0.56.0.React)
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - ReactNativeFabric (from `../node_modules/react-native-fabric`)
+  - RNIap (from `../node_modules/react-native-iap`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga/Yoga.podspec`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Crashlytics
+    - Fabric
+    - Google-Mobile-Ads-SDK
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  ReactNativeFabric:
+    :path: "../node_modules/react-native-fabric"
+  RNIap:
+    :path: "../node_modules/react-native-iap"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga/Yoga.podspec"
+
+SPEC CHECKSUMS:
+  Crashlytics: 7f2e38d302d9da96475b3d64d86fb29e31a542b7
+  Fabric: a2917d3895e4c1569b9c3170de7320ea1b1e6661
+  Google-Mobile-Ads-SDK: 6e529e748b45507a2ca904e0b5a52669ba3920c4
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  ReactNativeFabric: 3912bf9c714d7cc98110eadf06ca6dedef219322
+  RNIap: ef7dbcbb0ad7bb2400c14797ef3fad4e02ff0681
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: 61725fcd2775688d89c4bb43312d110f7b01177c
+
+COCOAPODS: 1.5.3
